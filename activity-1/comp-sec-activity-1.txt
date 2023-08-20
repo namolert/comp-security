@@ -1,6 +1,6 @@
 ﻿1. ThaiLanD
 2. Time for creating a table = 4.881517171859741 secs
-Total lines = 2653144
+   Total lines = 2653144
 3. 543,508 lines/sec (1 word/line)
 4. From the algorithm above, we have
    - alphabet 26 letters
