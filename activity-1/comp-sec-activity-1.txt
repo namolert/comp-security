@@ -1,0 +1,15 @@
+﻿1. ThaiLanD
+2. Time for creating a table = 4.881517171859741 secs
+   Total lines = 2653144
+3. 543,508 lines/sec (1 word/line)
+4. From the algorithm above, we have
+   - alphabet 26 letters
+   - alphabet can be uppercase and lowercase 
+   - 10 digits of number (0-9)
+   number of possible character = [(26 * 2) + 10] = 62
+   So, It’ll takes 62 ** word length / 543,508 secs to break the password
+5. 1 year is equal to 365 * 24 * 60 * 60 = 31,536,000 secs
+   word length = log(543,508 * 31,536,000, 62)
+               = 7.383437797334531
+   The proper length of a password should be at least 8 characters.
+6. Random string that is added to a password before it’s hashed and stored with hash.
